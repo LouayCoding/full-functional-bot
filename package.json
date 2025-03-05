@@ -1,0 +1,58 @@
+{
+  "name": "full-functional-bot",
+  "version": "1.0.0",
+  "description": "A fully functional Discord bot featuring moderation, country roles, economy, and community tools",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/full-functional-bot.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "moderation",
+    "economy",
+    "country-roles",
+    "community"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yourusername/full-functional-bot/issues"
+  },
+  "homepage": "https://github.com/yourusername/full-functional-bot#readme",
+  "dependencies": {
+    "@distube/soundcloud": "^2.0.4",
+    "@distube/spotify": "^2.0.2",
+    "@distube/yt-dlp": "^2.0.1",
+    "ascii-table": "^0.0.9",
+    "axios": "^1.8.1",
+    "bitvavo": "^1.4.1",
+    "canvacord": "^6.0.2",
+    "chalk": "^4.1.2",
+    "discord-economy-super": "^1.7.7",
+    "discord-html-transcripts": "^3.2.0",
+    "discord-tickets": "^2.0.0",
+    "discord-xp": "^1.1.16",
+    "discord.js": "^14.16.3",
+    "distube": "^5.0.4",
+    "dotenv": "^16.4.5",
+    "engine-blackjack": "^0.9.2",
+    "mongoose": "^8.8.3",
+    "timestamp-to-date": "^1.1.0",
+    "url-regex-safe": "^4.0.0",
+    "yt-dlp-wrap": "^2.3.12"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=16.9.0"
+  }
+}

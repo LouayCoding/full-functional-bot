@@ -1,0 +1,43 @@
+{
+    "embedColor": "#fafafa",
+    "prefix": [
+        "!",
+        "?",
+        "."
+    ],
+    "modRoles": [
+        "ROLE_ID_1",
+        "ROLE_ID_2",
+        "ROLE_ID_3"
+    ],
+    "footerText": "Full Functional Bot",
+    "verifyRole": "ROLE_ID",
+    "verifyChannel": "CHANNEL_ID",
+    "ruleChannel": "CHANNEL_ID",
+    "messageDeleteChannel": "CHANNEL_ID",
+    "voiceStateUpdateChannel": "CHANNEL_ID",
+    "vanityRole": "ROLE_ID",
+    "vanityChannel": "CHANNEL_ID",
+    "whisperChannel": "CHANNEL_ID",
+    "jailLogChannel": "CHANNEL_ID",
+    "jailChannel": "CHANNEL_ID",
+    "ticketCategory": "CATEGORY_ID",
+    "ticketRole": "ROLE_ID",
+    "countingChannel": "CHANNEL_ID",
+    "bounty": {
+        "price": 50000,
+        "timeoutDuration": 30000
+    },
+    "levelUpMessage": true,
+    "giveRoleOnJoin": true,
+    "giveRoleOnLevelUp": true,
+    "LevelUpRoles": {
+        "5": "ROLE_ID_LEVEL_5",
+        "10": "ROLE_ID_LEVEL_10",
+        "15": "ROLE_ID_LEVEL_15",
+        "20": "ROLE_ID_LEVEL_20"
+    },
+    "MAX_TIKTOKS_PER_MESSAGE": 5,
+    "COOLDOWN_PER_USER": 10000,
+    "BOOSTED_CHANNEL_ID": null
+} 
